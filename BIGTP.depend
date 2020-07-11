@@ -1,0 +1,163 @@
+# depslib dependency file v1.0
+1578546351 source:c:\users\user\desktop\bigtp\ajoute.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"ESSA.h"
+
+1578300528 c:\users\user\desktop\bigtp\ajoute.h
+	<string.h>
+	"structure.h"
+
+1578410446 c:\users\user\desktop\bigtp\ereure.h
+	"structure.h"
+
+1578410571 c:\users\user\desktop\bigtp\essa.h
+	"structure.h"
+	"structure.h"
+
+1578558046 source:c:\users\user\desktop\bigtp\ereure.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ajoute.h"
+	"ereure.h"
+	"ESSA.h"
+	"structure.h"
+
+1578545087 source:c:\users\user\desktop\bigtp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"menu.h"
+
+1578459180 c:\users\user\desktop\bigtp\menu.h
+	<string.h>
+	"structure.h"
+
+1578556902 source:c:\users\user\desktop\bigtp\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"menu.h"
+
+1578556281 c:\users\user\desktop\bigtp\structure.h
+	<string.h>
+
+1578546352 source:d:\bigtp\ajoute.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"ESSA.h"
+
+1578556282 d:\bigtp\structure.h
+	<string.h>
+
+1578300530 d:\bigtp\ajoute.h
+	<string.h>
+	"structure.h"
+
+1578410448 d:\bigtp\ereure.h
+	"structure.h"
+
+1578410572 d:\bigtp\essa.h
+	"structure.h"
+	"structure.h"
+
+1578558048 source:d:\bigtp\ereure.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ajoute.h"
+	"ereure.h"
+	"ESSA.h"
+	"structure.h"
+
+1578545088 source:d:\bigtp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"menu.h"
+
+1578459182 d:\bigtp\menu.h
+	<string.h>
+	"structure.h"
+
+1578556904 source:d:\bigtp\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"menu.h"
+
+1578546352 source:e:\bigtp\ajoute.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"ESSA.h"
+
+1578556282 e:\bigtp\structure.h
+	<string.h>
+
+1578300530 e:\bigtp\ajoute.h
+	<string.h>
+	"structure.h"
+
+1578410448 e:\bigtp\ereure.h
+	"structure.h"
+
+1578410572 e:\bigtp\essa.h
+	"structure.h"
+	"structure.h"
+
+1578558048 source:e:\bigtp\ereure.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ajoute.h"
+	"ereure.h"
+	"ESSA.h"
+	"structure.h"
+
+1578545088 source:e:\bigtp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"menu.h"
+
+1578459182 e:\bigtp\menu.h
+	<string.h>
+	"structure.h"
+
+1578556904 source:e:\bigtp\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"structure.h"
+	"ajoute.h"
+	"ereure.h"
+	"menu.h"
+

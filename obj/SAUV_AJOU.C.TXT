@@ -1,0 +1,59 @@
+			code=lire(FICHIER);
+							printf("NCIN %u  ",code.NCIN);//ecrture de l'age
+							printf(" %s\t",code.virgule);// ajoute virgule
+							printf(" age %u\t",code.AGE);//nom
+						//	printf("##V %s\t",code.virgule);// ajoute virgule
+							printf(" prenom  %s\t\n",code.PRENOMS);//nom
+							printf("%s\t",code.virgule);// ajoute virgule
+					printf(" nom  %s\t\n",code.NOM);//nom
+				printf("%s\t",code.virgule);
+				for(i=0;i<10;i++)
+				{
+					printf("%.2f\t",code.NOTES[i]);//ncin
+
+				}
+				printf("%d\t\n",code.DECISION);
+
+				if(code.NCIN==ncin){
+							printf("do ton nouv cod cni");
+					code.NCIN=verif();
+					fprintf(fic,"%u\t ",code.NCIN);//ecrture de l'age
+					fprintf(fic,"%s\t ",code.virgule);// ajoute virgule
+					fprintf(fic,"%s\t",code.NOM);//nom
+					fprintf(fic,"%s\t",code.virgule);//virgule
+					fprintf(fic,"%s\t",code.PRENOMS);
+					//nom
+					fprintf(fic,"%s\t",code.virgule);//virgule
+					fprintf(fic,"%d\t",code.AGE);//ncin
+					fprintf(fic,"%s\t",code.virgule);//virgule
+			for(i=0;i<10;i++)
+				{
+					fprintf(fic,"%.2f\t",code.NOTES[i]);//ncin
+
+				}
+					fprintf(fic,"%d\t",code.DECISION);//ncin
+					fprintf(fic,"%s\t\n",code.virgule);//virgule
+				}
+				else if(ncin!=code.NCIN)
+				{
+					fprintf(fic,"%u\t ",code.NCIN);//ecrture de l'age
+					fprintf(fic,"%s\t ",code.virgule);// ajoute virgule
+					fprintf(fic,"%s\t",code.NOM);//nom
+					fprintf(fic,"%s\t",code.virgule);//virgule
+					fprintf(fic,"%s\t",code.PRENOMS);
+					//nom
+					fprintf(fic,"%s\t",code.virgule);//virgule
+					fprintf(fic,"%d\t",code.AGE);//ncin
+					fprintf(fic,"%s\t",code.virgule);//virgule
+			for(i=0;i<10;i++)
+				{
+					fprintf(fic,"%.2f\t",code.NOTES[i]);//ncin
+
+				}
+					fprintf(fic,"%d\t",code.DECISION);//ncin
+					fprintf(fic,"%s\t\n",code.virgule);//virgule
+
+				}
+
+						}while( !feof(FICHIER));
+						fclose(FICHIER);
